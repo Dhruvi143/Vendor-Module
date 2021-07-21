@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+*
+* catalog_product_view.xml=> reffered from module-catalog/view/frontend/layout
+*
+*/
+-->
+<page layout="lcolumn" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/layout_generic.xsd">
+    <body>
+        <referenceContainer name="content">
+
+            <referenceContainer name="product.info.form.content" >
+                <block class="Dhruvi\Vendor\Block\Vendor" name="vendor" before="-" template="Dhruvi_Vendor::vendor_attribute.phtml">
+
+                </block>
+            </referenceContainer>
+        </referenceContainer>
+    </body>
+</page>
